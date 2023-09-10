@@ -14,8 +14,8 @@ Have a directory with the raw images in the resolution 3000x2000.
 Raw files can be obtained here [place-atlas-2023-scraped-canvas](https://archive.org/details/place-atlas-2023-scraped-canvas) which has to be processed.
 - First unpack the files
     - either with this oneliner: `for file in *tar; do dir=$(basename "$file" .tar); mkdir "$dir"; tar -xvf "$file" -C "$dir" ; done`
-    - or with the mini-script [unpacker.sh](https://github.com/mag37/rplace_timelapse/blob/main/unpacker.sh]
-- Then run the [montage_all.sh](https://github.com/mag37/rplace_timelapse/blob/main/montage_all.sh) script, takes quite a while.
+    - or with the mini-script [unpacker.sh](https://github.com/mag37/rplace_timelapse/blob/main/unpacker.sh)
+- Then run the [montage_all.sh](https://github.com/mag37/rplace_timelapse/blob/main/montage_all.sh) script, takes quite a while (need to test, seems slow).
 
 ### Installed packages:
 - ffmpeg
