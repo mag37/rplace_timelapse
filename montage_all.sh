@@ -25,7 +25,7 @@ do
       fi
     done
     # create the montaged full canvas file
-    montage -verbose ${canvas_0} ${canvas_1} ${canvas_2} ${canvas_3} ${canvas_4} ${canvas_5} -geometry 1000x1000+0+0 ${starting_dir}/ALL/${line}.png
+    montage ${canvas_0} ${canvas_1} ${canvas_2} ${canvas_3} ${canvas_4} ${canvas_5} -geometry 1000x1000+0+0 ${starting_dir}/ALL/${line}.png
   done < ${dir}.list # read the list of files
 done
 cd ${starting_dir} # return to base directory
