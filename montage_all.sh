@@ -1,4 +1,7 @@
-#!/bin/bash
+#!/usr/bin/env bash
+# Should be placed and run in the same dir as all unpacked images
+# images should be in subdirs images[2-5] 
+
 # Create output dir
 mkdir -p ALL
 starting_dir=$(pwd) # to get full path
